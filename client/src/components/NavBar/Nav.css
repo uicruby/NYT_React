@@ -1,0 +1,20 @@
+@keyframes shine {
+    from {
+        -webkit-mask-position: 150%;
+    }
+    to {
+        -webkit-mask-position: -50%;
+    }
+}
+
+
+.customNav {
+  font-size: 50px;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 5vh;
+  color: white;
+  -webkit-mask-image: linear-gradient(15deg, rgba(0, 0, 0, 0.6) 60%, #000 80%, rgba(0, 0, 0, 1) 90%);
+  -webkit-mask-size: 200%;
+  animation: shine 2s linear infinite;
+
+}
